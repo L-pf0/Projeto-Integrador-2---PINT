@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadarMind - Plataforma Agro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <header id="topo" class="site-header border-bottom sticky-top">
+
+        <div class="container">
+
+            <nav class="navbar navbar-expand-xl navbar-light py-2">
+
+                <div class="container-fluid px-0">
+
+                    <a class="navbar-brand" href="#hero">
+
+                        <img src="imgs/logoCortada_RadarMind.png" alt="Logo RadarMind">
+
+                        <!-- RadarMind com efeito Uiverse -->
+                        <button class="button" data-text="RadarMind">
+                            <span class="actual-text">&nbsp;RadarMind&nbsp;</span>
+                            <span aria-hidden="true" class="hover-text">&nbsp;RadarMind&nbsp;</span>
+                        </button>
+
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hero">Produto</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tour">Módulos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#integracao">Integração</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#equipe">Equipe</a>
+                            </li>
+
+                            <!-- <li class="nav-item">
+                                <a class="btn-nav-cta" href="#hero">
+                                    Ir para Dashboards
+                                </a>
+                            </li> -->
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <section id="hero" class="py-5">
+            <div class="container">
+                <div class="row align-items-center text-center text-lg-start">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h1 class="display-4 mb-3">A Tomada de Decisão Mais
+                            <span class="text-gradient">Inteligente</span>
+                            do Agro
+                        </h1>
+                        <p class="lead fs-5">Gestão e surpervisão de processos precisa, integração e monitoramento em
+                            tempo real para otimizar os resultados no campo...</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+                            <button type="button" class="btn btn-primary btn-sm px-4 rounded-pill">Explore Nossa
+                                Plataforma</button>
+                            <a href="#tour" class="btn btn-outline-secondary btn-sm px-4 rounded-pill">Módulos</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="resumo-desktop">
+                            <img src="imgs/logoCortada_RadarMind.png" alt="" width="100%">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                    <div class="accordion accordion-flush feature-accordion" id="accordionFeatures">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseProdutos" aria-expanded="false"
+                                    aria-controls="collapseProdutos">
+                                    <span class="feature-icon"><i class="bi bi-graph-up-arrow"></i></span>
+                                    <span class="accordion-title">Produtos</span>
+                                </button>
+                            </h2>
+                            <div id="collapseProdutos" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFeatures">
+                                <div class="accordion-body">
+                                    Tenha controle total do estoque e maquinário de suas unidades empresariais em tempo
+                                    real, com os dados certos para reduzir perdas, evitar rupturas e aumentar a
+                                    eficiência da sua produção...
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseIntegracao" aria-expanded="false"
+                                    aria-controls="collapseIntegracao">
+                                    <span class="feature-icon"><i class="bi bi-cpu"></i></span>
+                                    <span class="accordion-title">Integração</span>
+                                </button>
+                            </h2>
+                            <div id="collapseIntegracao" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFeatures">
+                                <div class="accordion-body">
+                                    Centralize as informações de todas suas filiais/subempresas em um só lugar e tenha a
+                                    visão completa que você precisa para agir rápido e com precisão...
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseRelatorios" aria-expanded="false"
+                                    aria-controls="collapseRelatorios">
+                                    <span class="feature-icon"><i class="bi bi-file-earmark-bar-graph"></i></span>
+                                    <span class="accordion-title">Relatórios</span>
+                                </button>
+                            </h2>
+                            <div id="collapseRelatorios" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFeatures">
+                                <div class="accordion-body">
+                                    Relatórios completos e detalhados de cada unidade, prontos para apoiar suas decisões
+                                    estratégicas a qualquer momento...
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <div class="loader-wrapper">
+            <div class="loader">
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__ball"></div>
+            </div>
+        </div>
+
+
+
+        <section id="tour" class="sessao_separada">
+            <div class="container">
+
+                <div class="row mb-5 align-items-center gy-4">
+                    <div class="col-md-6 order-md-2">
+                        <div class="module-num">1</div>
+                        <h3>Dados e Cadastros na Plataforma</h3>
+                        <p class="text-muted">Acompanhe o fluxo de dados de cada subempresa e seus relatórios... tudo
+                            disponivel diáriamente para consulta...</p>
+                        <ul class="tour-list">
+                            <li><i class="bi bi-check-circle-fill"></i> Cadastro de dados</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Registro de Movientações</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Relatórios de Estoque </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <div class="module-visual">
+
+                            <img src="RadarMind_Telas_Individuais/04_Tela_de_Estoque.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb-5 align-items-center gy-4">
+                    <div class="col-md-6">
+                        <div class="module-num">2</div>
+                        <h3>Dashboard e Status</h3>
+                        <p class="text-muted">Visualização clara de desenvolvimento e performace que cada subempresa e
+                            seus pontos criticos...</p>
+                        <ul class="tour-list">
+                            <li><i class="bi bi-check-circle-fill"></i> Geração de Relatórios </li>
+                            <li><i class="bi bi-check-circle-fill"></i> Ranking/Gráfico de desempenho</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Destaques gerais por subempresa</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="module-visual">
+                            <img src="RadarMind_Telas_Individuais/02_Dashboard_Matriz.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5 align-items-center gy-4">
+                    <div class="col-md-6 order-md-2">
+                        <div class="module-num">3</div>
+                        <h3>Alertas e Notificações</h3>
+                        <p class="text-muted">Receba alertas imadiatos sobre estoque crítico ou desempenho baixo da
+                            filial...</p>
+                        <ul class="tour-list">
+                            <li><i class="bi bi-check-circle-fill"></i> Alertas Automáticos</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Estoque crítico e desempenho baixo</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Histórico e severidade dos alertas</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <div class="module-visual">
+                            <img src="RadarMind_Telas_Individuais/09_Notificacoes_e_Alertas.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="loader-wrapper">
+            <div class="loader">
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__ball"></div>
+            </div>
+        </div>
+
+        <section id="integracao" class="sessao_separada">
+            <div class="container">
+                <div class="text-center mb-5 py-2">
+                    <h2>Integração no Sistema</h2>
+                    <p class="lead py-3">O RadarMind conecta todas as filiais da sua empresa à Matriz em um
+                        único sistema, oferecendo supervisão total e gerenciamento inteligente de processos,
+                        para um crescimento mais eficiente, dinâmico e sem pontos cegos...
+                    </p>
+                    <p class="lead py-2">
+                        Com o RadarMind, sua Matriz enxerga e gerencia todas as filiais em tempo real.
+                        Mais controle, mais agilidade e decisões mais rápidas para escalar o crescimento
+                        da sua empresa.
+                    </p>
+                    <!-- <div class="section-eyebrow-line"></div> -->
+                </div>
+                <div class="row justify-content-center align-items-center text-center g-3 ">
+                    <div class="col-md-3">
+                        <div class="integ-box">
+                            <div class="integ-icon"><i class="bi bi-broadcast-pin"></i></div>
+                            <h5 class="mb-1">Empresa Matriz</h5>
+                            <p class="small text-muted mb-0">Dashboard administrador</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <i class="bi bi-arrow-right integ-arrow"></i>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="integ-box is-core">
+                            <div class="integ-icon"><i class="bi bi-diagram-3-fill"></i></div>
+                            <h5 class="mb-1">RadarMind System</h5>
+                            <p class="small text-muted mb-0">Processamento Central</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <i class="bi bi-arrow-right integ-arrow"></i>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="integ-box">
+                            <div class="integ-icon"><i class="bi bi-building-gear"></i></div>
+                            <h5 class="mb-1">Subempresa</h5>
+                            <p class="small text-muted mb-0">Dashboard da Subempresa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="loader-wrapper">
+            <div class="loader">
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__ball"></div>
+            </div>
+        </div>
+
+
+
+        <section id="equipe" class="sessao_separada">
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <h2>Equipe de Desenvolvedores</h2>
+                </div>
+
+                <div class="row text-center g-3">
+
+                    <div class="col-6 col-md-4 col-lg">
+                        <div class="p-3 team-card h-100">
+                            <div class="team-avatar mx-auto mb-3">
+                                <img src="imgs/foto-luisa_stackholder.jpeg" alt="Luísa Paes Franzoni">
+                            </div>
+
+                            <h5 class="mb-0">Luísa Paes Franzoni</h5>
+                            <p class="small text-muted mb-0">
+                                Líder / Desenvolvedora Full-Stack / P.O
+                            </p>
+                            <p class="small text-muted mb-0">
+                                <a href="https://mysiteluisa-jaty20jy1-l-pf0.vercel.app" target="_blank">Acessar página </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg">
+                        <div class="p-3 team-card h-100">
+                            <div class="team-avatar mx-auto mb-3">
+                                <img src="imgs/foto_thavine_stakholder.jpeg" alt="Thávine Gabrielli Nardin">
+                            </div>
+
+                            <h5 class="mb-0">Thávine Gabrielli Nardin</h5>
+                            <p class="small text-muted mb-0">
+                                Desenvolvedora Full-Stack / P.M
+                            </p>
+                            <p class="small text-muted mb-0">
+                                <a href="https://portifolio-thavine.vercel.app/" target="_blank">Acessar página</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg">
+                        <div class="p-3 team-card h-100">
+                            <div class="team-avatar mx-auto mb-3">
+                                <img src="imgs/foto_anaJulia_Stakholder.jpeg" alt="Ana Júlia Ciríaco Campos">
+                            </div>
+
+                            <h5 class="mb-0">Ana Júlia Ciríaco Campos</h5>
+                            <p class="small text-muted mb-0">
+                                Desenvolvedora Full-Stack / P.M
+                            </p>
+                            <p class="small text-muted mb-0">
+                                <a href="https://portifolio-chi-peach.vercel.app/" target="_blank">Acessar página</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg">
+                        <div class="p-3 team-card h-100">
+                            <div class="team-avatar mx-auto mb-3">
+                                <img src="imgs/foto_lorena_stakholder.jpeg" alt="Lorena Lodi de Oliveira">
+                            </div>
+
+                            <h5 class="mb-0">Lorena Lodi de Oliveira</h5>
+                            <p class="small text-muted mb-0">
+                                Desenvolvedora Full-Stack
+                            </p>
+                            <p class="small text-muted mb-0">
+                                <a href="https://portfolio-pi-olive-13.vercel.app/" target="_blank">Acessar página   </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg">
+                        <div class="p-3 team-card h-100">
+                            <div class="team-avatar mx-auto mb-3">
+                                <img src="imgs/foto_luan_Stakholder.jpeg" alt="Luan Veríssimo Beltramini">
+                            </div>
+
+                            <h5 class="mb-0">Luan Veríssimo Beltramini</h5>
+                            <p class="small text-muted mb-0">
+                                Desenvolvedor Full-Stack / Tech Lead
+                            </p>
+                            <p class="small text-muted mb-0">
+                                <a href="https://pagina-pessoal-luan-gzz5rkm3x-luan-beltramini.vercel.app" target="_blank">Acessar página   </a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="dashboards" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5 mt-5">
+                    
+                    <h2>Módulos Avançados de Gestão</h2>
+                    <p class="lead">Visão macro e micro para decisões estratégicas e operacionais.</p>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-md-6 col-lg-4 ">
+                        <div class="p-4 dash-card">
+                            <div class="dash-icon"><i class="bi bi-diagram-2-fill"></i></div>
+                            <h4 class="h5">Dashboard Matriz</h4>
+                            <p class="small mb-0 text-muted">Visão consolidada das operações de todas suas unidades de filiais</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="p-4 dash-card">
+                            <div class="dash-icon"><i class="bi bi-boxes"></i></div>
+                            <h4 class="h5">Gestão de Estoque</h4>
+                            <p class="small mb-0 text-muted">Registro e controle de maquinário que entra e sai do estoque</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="p-4 dash-card">
+                            <div class="dash-icon"><i class="bi bi-file-earmark-bar-graph-fill"></i></div>
+                            <h4 class="h5">Relatórios Gerenciais</h4>
+                            <p class="small mb-0 text-muted">Exportação de dados e análise de desempenho de cada unidade de subempresa
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="p-4 dash-card">
+                            <div class="dash-icon"><i class="bi bi-building"></i></div>
+                            <h4 class="h5">Dashboard Subempresa</h4>
+                            <p class="small mb-0 text-muted">Visão unicamente da própia unidade, acesso restrito somente a Matriz e a subempresa correspondente </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="p-4 dash-card">
+                            <div class="dash-icon"><i class="bi bi-truck"></i></div>
+                            <h4 class="h5">Pedidos e Maquinários</h4>
+                            <p class="small mb-0 text-muted">Monitoramento de ordens de serviço e maquinário com defeito etc...</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="p-4 dash-card">
+                            <div class="dash-icon"><i class="bi bi-bell-fill"></i></div>
+                            <h4 class="h5">Central de Alertas</h4>
+                            <p class="small mb-0 text-muted">Emissão automática de alertas quando hover estoque ou situação de maquinário critico</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer class="site-footer py-5 mt-5">
+        <div class="container text-center">
+
+            <!-- Logo centralizada -->
+            <div class="footer-brand d-flex align-items-center justify-content-center gap-2">
+                <img src="imgs/logoCortada_RadarMind.png" alt="Logo RadarMind" width="44" height="44"
+                    class="object-fit-contain">
+                <span class="fs-3">RadarMind</span>
+            </div>
+
+            <p class="text-white-50 mb-0 mt-2">O sistema que transforma sua gerência com elegância e eficiência</p>
+
+            <hr class="border-light border-opacity-25 mx-auto my-4" style="max-width: 720px;">
+
+            <ul class="nav justify-content-center flex-wrap gap-1 mb-3">
+                <li class="nav-item"><a href="#hero" class="nav-link link-light px-3">Produto</a></li>
+                <li class="nav-item"><a href="#tour" class="nav-link link-light px-3">Módulos</a></li>
+                <li class="nav-item"><a href="#integracao" class="nav-link link-light px-3">Integração</a></li>
+                <li class="nav-item"><a href="#equipe" class="nav-link link-light px-3">Equipe</a></li>
+                <li class="nav-item"><a href="#dashboards" class="nav-link link-light px-3">Dashboards</a></li>
+            </ul>
+
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
